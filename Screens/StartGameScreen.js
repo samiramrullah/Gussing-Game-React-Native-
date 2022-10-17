@@ -5,6 +5,7 @@ const StartGameScreen = () => {
         <View>
             <TextInput placeholder='Enter Number' />
             <PrimaryButton>Reset</PrimaryButton>
+            <PrimaryButton>Confirm</PrimaryButton>
         </View>
     )
 }
