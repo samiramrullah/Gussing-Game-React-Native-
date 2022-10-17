@@ -3,7 +3,11 @@ import PrimaryButton from '../Components/PrimaryButton';
 const StartGameScreen = () => {
     return (
         <View style={styles.innerContainer}>
-            <TextInput style={styles.inputArea} maxLength={2} />
+            <TextInput style={styles.inputArea} maxLength={2}
+                keyboardType={'numeric'}
+                autoCorrect={false}
+                autoCapitalize={false}
+            />
             <PrimaryButton>Reset</PrimaryButton>
             <PrimaryButton>Confirm</PrimaryButton>
         </View>
