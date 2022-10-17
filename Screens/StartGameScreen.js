@@ -1,9 +1,10 @@
 import { Text, Button, View, TextInput } from 'react-native';
+import PrimaryButton from '../Components/PrimaryButton';
 const StartGameScreen = () => {
     return (
         <View>
             <TextInput placeholder='Enter Number' />
-            <Button title='Guess' />
+            <PrimaryButton>Reset</PrimaryButton>
         </View>
     )
 }
